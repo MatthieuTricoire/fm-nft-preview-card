@@ -1,7 +1,12 @@
 import "./App.css";
+import Card from "./components/Card";
 
 function App() {
-  return <div>Hello world !</div>;
+  return (
+    <main>
+      <Card />
+    </main>
+  );
 }
 
 export default App;
